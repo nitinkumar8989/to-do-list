@@ -28,3 +28,4 @@ function loadTasks() {
     taskList.innerHTML = localStorage.getItem("tasks") || "";
     Array.from(taskList.children).forEach(li => li.onclick = toggleTask);
 }
+git push -u origin main
